@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript-Beispiel</title>
+  <script>
+    function oeffnen(url) {
+      var fenster = window.open(url, 'f', 'width=500,height=300');
+      fenster.focus();
+      return false;
+    }
+  </script>
+</head>
+<body>
+<a href="beispiel.html" onclick="return oeffnen(this.href)">
+  Pop-up-Fenster öffnen</a><br>
+<a href="http://www.web.de/" onclick="return oeffnen(this.href)">
+  web</a><br>
+<a href="http://www.facebook.com" onclick="return oeffnen(this.href)">
+  Facebook</a>
+</body>
+</html>

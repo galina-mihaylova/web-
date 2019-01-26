@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Uhrzeit ausgeben lassen</title>
+</head>
+<body>
+<p id="aktzeit"></p>
+<script>
+  var datum = new Date();
+  var stunden = datum.getHours();
+  var minuten = datum.getMinutes();
+  document.getElementById("aktzeit").innerHTML = 
+  "Es ist jetzt " + stunden + " Uhr und " + minuten + " Minuten";
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Datum ausgeben lassen</title>
+</head>
+<body>
+<p id="aktdatum"></p>
+<script>
+  var datum = new Date();
+  var tag = datum.getDate();
+  var monat = datum.getMonth() + 1;
+  var jahr = datum.getFullYear();
+  document.getElementById("aktdatum").innerHTML = tag + "." + monat + "." + jahr +"";
+</script>
+</body>
+</html>
