@@ -1,0 +1,500 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #ADA189;
+	margin: 0px;
+	padding: 0px;
+}
+holder {
+	width: 460px;
+	background: #FFFFFF;
+	margin: 0 auto 0 auto;
+}
+#header {
+	background: #DCCBAC;
+}
+#nav {
+	width: 140px;
+	float: left;
+	padding: 15px 10px;
+}
+#content {
+	margin: 0 0 0 165px;
+	padding: 15px;
+	border-left: 1px solid #877D6C;
+}
+#footer {
+	padding: 5px;
+	border-top: 1px solid #877D6C;
+	font-size: 80%;
+	
+}
+.callout {
+	font: bold 130% Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	margin: 0;
+	padding: 20px 10px;
+}
+.brclear { 
+     clear:both; 
+     height:0; 
+     margin:0;
+     font-size: 1px;
+     line-height: 0px;
+}
+p {
+	font-size: 80%;
+}
+#content p {
+	line-height: 130%;
+}
+#nav a:link { 
+	color: #736B5E;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav a:visited { 
+	color: #666;
+}
+#nav a:hover, #nav a:active, #nav a:focus {  
+	color: #333;
+}
+
+
+
+/*--------------------------jqmcss---------------------*/
+
+/*--------------------------Farbverlauf---------------------*/
+
+.ui-overlay-a, .ui-overlay-b, 
+.ui-page-theme-a, .ui-page-theme-b,  
+.ui-page-theme-a, .ui-page-theme-b, .ui-panel-wrapper  {
+	
+	background: #A5A9F7;																					
+	
+	background-image: linear-gradient( #FFF, #A5A9F7);
+}
+
+/* ----------------------------------------------------------------------------- * 
+ *                                       Layout                                  *
+ * ----------------------------------------------------------------------------- */
+
+ .ui-overlay-a, .ui-page-theme-a{
+	width: 100%;
+	height: 100%;
+}
+
+.ui-content {
+	width: 100%;
+	height: 50%;
+}
+
+#appbutton {
+	margin-right: 35px;
+}
+
+.ui-content li:first-child{
+	margin-top: 10px;
+}
+
+.ui-content li:last-child {
+	margin-bottom: 55px;
+}
+
+.ui-footer p {
+margin: 0 auto 0 auto;
+}
+
+/* ----------------------------------------------------------------------------- * 
+ *                           Farben und Schrift                                  *
+ * ----------------------------------------------------------------------------- */
+
+ html .ui-body-a .ui-btn, html head + body .ui-btn.ui-btn-a:visited {
+	background: none;
+}
+
+ .ui-overlay-a, .ui-page-theme-a{
+	background-color: #000;
+}
+
+ .ui-body {
+	font: "open_sanslight", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.ui-content h1 {
+	font: 2em open_sanslight !important;
+	font-weight: bold;
+}
+
+#karte { 
+	background: none;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+	background-color: #fc3;
+}
+
+#appbutton,  {
+	background-color: #fc3;
+	opacity: 0.8;
+}
+
+
+
+#profil {
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+#logout, #storno, #fahrten , #config, #info{
+	background-color: #000;
+	color: white;
+	opacity: 0.5;
+}
+
+.ui-page-theme-a .ui-btn {
+	background: none;
+}
+
+.ui-page-theme-a .ui-btn:hover {
+	background-color: #f6f6f6;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.ui-page-theme-a .ui-btn:active {
+	background-color: green;
+}
+
+.ui-page-theme-a .ui-btn {                                
+	color: #000;
+}
+
+.ui-footer .ui-btn {
+	background-color: #000;
+	color: #fff;
+}
+
+.ui-footer p {
+font-size: 60%;
+text-align: center;
+}
+
+/* ----------------------------------------------------------------------------- * 
+ *                                     Farben Button                             *
+ * ----------------------------------------------------------------------------- */
+ 
+#appbutton {
+	
+	width: 85%;
+	margin: 0;
+	
+	
+	color: #000;
+	font-size: 80%;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	border: thin solid #808080;
+	background-color: #dccbac;
+
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+	border-radius: 15px; 
+	background: #dccbac;
+	background-image: linear-gradient( #dccbac, #aaa);
+}
+
+#appbutton:hover {
+	color: brown;
+	background: #1A1F2B;
+	background-image: linear-gradient( #aaa, #dccbac);
+}
+
+
+
+/*--------------------------jqmcss---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

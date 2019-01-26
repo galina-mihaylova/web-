@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+} 
+
+body {
+  
+  color: black;
+  background: #A5A9F7;																					
+  background-image: linear-gradient( #A5A9F7, #FFF );
+  
+  margin: 0;
+  padding: 0;
+}
+
+#holder {
+  background-color: white;
+  background-color: rgba(165, 169, 247, 0.65);
+}
+
+header {
+  background-color: #dccbac;
+   
+}
+
+.callout {
+  font: bold 0.9rem Georgia, "Times New Roman", Times, serif;
+  margin:0;
+  padding: 0.5rem;
+  text-decoration: none;
+  
+}
+
+.button {
+  font: bold 0.9rem Georgia, "Times New Roman", Times, serif;
+  margin:0;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+  
+  
+}
+nav {
+  text-align: center;
+}
+
+nav ul {  
+  margin: 0;  
+  padding: 0.4rem;    
+  background-color: #9f7955;
+}
+
+nav ul li {  
+  list-style-type: none;  
+  display: inline-block;
+}
+
+nav ul a { 
+  padding: 0.2rem;  
+  color: #736b5e;
+  font-size: 0.8rem;
+  font-weight: bold;  
+  text-decoration: none;  
+  background-color: #dccbac;
+  border-radius: 0.3em;
+}
+
+
+nav a:visited {
+  color: #666666;
+}
+
+main {
+padding: 0 0.4rem;
+}
+
+main p {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+article {
+    display: table-row;
+    padding: 0.4rem;
+}
+
+footer {
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  color: #736b5e;
+}
+/*--------------------------------------------*/
+@media only screen and (min-width: 460px)
+
+ {
+	 
+header {
+  text-decoration:none;
+ }
+body {
+	
+  width: 980px;
+  color: black;
+  background: #C6C8F4;
+  margin: 0;
+  padding: 0;
+  
+} 
+ 
+#holder {
+  width:75%;
+  max-width: 50rem;
+  margin: 0 auto 0 auto;
+  
+  
+}
+ 
+.button {
+  
+  padding: 0.8rem;
+  padding-left: 37rem;
+}
+
+ 
+.callout {
+  font-size: 2rem;
+  padding: 0.8rem;
+}    
+    
+nav {
+  width: 30%;
+  float: left;
+  padding: 1rem;
+  border-top: 1px solid #877d6c;
+  
+}
+
+nav ul {  
+  padding: 0.1rem; 
+  background-color: #C6C8F4;
+  
+}
+    
+nav ul li { 
+  padding: 0.5rem;
+  display: block;
+}
+    
+nav ul a {
+  display:inline-block;
+  width: 90%;
+  font-size: 1rem;
+  margin: 0.1rem;
+  padding: 0.3rem;  
+}
+    
+nav a:hover, nav a:active, nav a:focus {
+  color: black;
+}
+    
+main {
+  width: 70%;
+  float: left;
+  padding: 0 1rem; 
+  border-left: 1px solid #877d6c;
+  border-top: 1px solid #877d6c;
+  
+  
+}
+    
+main p {
+  font-size: 1rem;
+  line-height: 1.9;
+}
+    
+
+    
+aside article, aside p {
+        display: block;
+        width: auto;
+        padding: 0;
+}
+    
+    
+footer {
+  clear: left;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  border-top: 1px solid #877d6c;
+}
+    
+}
