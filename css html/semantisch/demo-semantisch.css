@@ -1,0 +1,117 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+    background-image: url(landschaft.jpg);
+    background-size: cover;
+}
+
+#holder {
+	width: 760px;
+	background: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+	box-shadow: #FFFFFF 6px 10px 7px;
+	border-bottom-right-radius: 25px
+}
+header {
+	background: #DCCBAC;
+	
+}
+nav {
+	width: 140px;
+	float: left;
+	padding: 15px 10px;
+}
+#content {
+	margin: 0 0 0 165px;
+	padding: 15px;
+	border-left: 1px solid #877D6C;
+}
+footer {
+	padding: 5px;
+	border-top: 1px solid #877D6C;
+	font-size: 80%;
+	color: #736B5E;
+}
+.callout {
+	font: bold 130% Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	margin: 0;
+	padding: 20px 10px;
+}
+
+p {
+	font-size: 80%;
+}
+#content p {
+	line-height: 130%;
+}
+a[href^="http"] {
+	color: red;
+}
+nav a:link { 
+	color: #736B5E;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 0;
+}
+nav a:visited { 
+	color: #666;
+}
+nav a:hover {  
+    padding-left: 7px;
+	color: #333;
+	transition: 2s;
+}
+nav a:active, nav a:focus {  
+   	color: #333;
+}
+input[type="email"] {
+    display: inline-block;
+    line-height: 1.4;
+    margin: 0.5em 0;
+    outline: 0 none;
+    padding: 5px;
+    width: 150px;
+    border: 1px solid #999;
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	-webkit-box-shadow: #333 0 0 9px inset;
+	box-shadow:#333 0 0 9px inset;
+	border-radius: 10px;
+}
+input[type="submit"] {
+    display: inline-block;
+    line-height: 1.4;
+    margin: 0.5em 0;
+    outline: 0 none;
+    padding: 5px;
+    width: 150px;
+    border: 1px solid #999;
+	background-color: #9B9B9B;
+	background-image: -webkit-linear-gradient( #FFFFFF, #000000);
+	background-image: linear-gradient (#FFFFFF, #000000);
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border-radius: 10px;
+	text-shadow:#FFFFFF 2px 5px 8px;
+	font-weight: bold;
+}
+.textshadow input[type="submit"] {
+    text-shadow:#FFFFFF 2px 5px 8px;
+	font-weight: normal;
+}
+
+/* Start of "Micro clearfix" */
+        
+.cf { zoom: 1; }
+.cf:before,
+.cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+        
+/* End of "Micro clearfix" */
