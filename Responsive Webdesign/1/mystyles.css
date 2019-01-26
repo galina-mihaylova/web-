@@ -1,0 +1,150 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+} 
+
+body {
+  color: black;
+  background-color: #ada189;
+  margin: 0;
+  padding: 0;
+}
+
+#holder {
+  background-color: #FCF6E3;
+}
+
+header {
+  background-color: #dccbac;
+}
+
+.callout {
+  font: bold 0.9rem Georgia, "Times New Roman", Times, serif;
+  margin:0;
+  padding: 0.5rem;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {  
+  margin: 0;  
+  padding: 0.4rem;    
+  background-color: #9f7955;
+}
+
+nav ul li {  
+  list-style-type: none;  
+  display: inline-block;
+}
+
+nav ul a { 
+  padding: 0.2rem;  
+  color: #736b5e;
+  font-size: 0.8rem;
+  font-weight: bold;  
+  text-decoration: none;  
+  background-color: #dccbac;
+  border-radius: 0.3em;
+}
+
+
+nav a:visited {
+  color: #666666;
+}
+
+main {
+padding: 0 0.4rem;
+}
+
+main p {
+  font-size: 0.8rem;
+  line-height: 1;
+  
+}
+
+article {
+    padding: 0.4rem;
+}
+img {
+
+height: auto;
+}
+
+.art-direction-fluid {
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+	
+}
+/*--------------------------------------------*/
+@media screen and (min-width: 40em) {
+ 
+#holder {
+  width:75%;
+  max-width: 50rem;
+  margin: 0 auto 0 auto;
+}
+    
+.callout {
+  font-size: 2rem;
+  padding: 0.8rem;
+}    
+    
+nav {
+  width: 30%;
+  float: left;
+  padding: 1rem;
+}
+
+nav ul {  
+  padding: 0.1rem;    
+}
+    
+nav ul li { 
+  padding: 0.5rem;
+  display: block;
+}
+    
+nav ul a {
+  display:inline-block;
+  width: 90%;
+  font-size: 1rem;
+  margin: 0.1rem;
+  padding: 0.3rem;  
+}
+    
+nav a:hover, nav a:active, nav a:focus {
+  color: black;
+}
+    
+main {
+  width: 70%;
+  float: left;
+  padding: 0 1rem; 
+  border-left: 1px solid #877d6c;
+  
+}
+    
+main p {
+  font-size: 1rem;
+  line-height: 1.4;
+  
+}
+ 
+ article  {
+        display: block;
+        width: auto;
+        padding: 0;
+}   
+    
+aside {
+  clear: left;
+    
+}
+    
+}
