@@ -1,0 +1,6 @@
+C:\Users\Galina\source\repos\Alter\Alter\bin\Debug\Alter.exe.config
+C:\Users\Galina\source\repos\Alter\Alter\bin\Debug\Alter.exe
+C:\Users\Galina\source\repos\Alter\Alter\bin\Debug\Alter.pdb
+C:\Users\Galina\source\repos\Alter\Alter\obj\Debug\Alter.csproj.CoreCompileInputs.cache
+C:\Users\Galina\source\repos\Alter\Alter\obj\Debug\Alter.exe
+C:\Users\Galina\source\repos\Alter\Alter\obj\Debug\Alter.pdb
