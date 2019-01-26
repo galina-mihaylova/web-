@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header, section, article, aside, footer, canvas, h1, h2, p, img {
+	display: block;
+} 
+
+html, body {
+	font-family: Arial, sans-serif;
+	height: 100%;
+}
+
+#div {
+	width: 1000px;
+	margin: 0 auto;
+	background: #347F82;
+}
+
+#header0 {
+	background: #A796BA;
+	height: 80px;
+	text-align: center;
+	font-size: 100%;
+}
+
+aside {
+	margin-left: 20px;
+	width: 210px;
+	float: left;
+}
+
+canvas{
+	background: #FFF;
+	width:200px;
+	height:200px;
+	border: 1px;
+}
+#canv_div {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	margin-top: 20px;
+}
+article {
+	margin-left: 20px;
+	width: 200px;
+	float: left;
+}
+
+#resize {
+	margin-top: 20px;
+	
+}
+
+#content {
+	margin-left: 675px;
+	margin-bottom: 20px;
+	
+}
+
+h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+h1 {
+	padding-top: 20px;
+}
+
+footer {
+	background: #A796BA;
+	height: 30px;
+	text-align: center;
+}

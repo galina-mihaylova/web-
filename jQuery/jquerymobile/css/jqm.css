@@ -1,0 +1,24 @@
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0.313em;
+}
+
+
+/*--------------------------Farbverlauf---------------------*/
+
+.ui-overlay-a, .ui-overlay-b, 
+.ui-page-theme-a, .ui-page-theme-b,  
+.ui-page-theme-a, .ui-page-theme-b, .ui-panel-wrapper  {
+	
+	background: #A5A9F7;																					
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #A5A9F7)); 
+	background-image: -webkit-linear-gradient( #FFF, #A5A9F7);
+	background-image: linear-gradient( #FFF, #A5A9F7);
+}
+
+

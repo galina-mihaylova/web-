@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>praxisaufgabe</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+		<link href="lib/js/jquery-ui.min.css" type="text/css" rel="stylesheet"/>
+		<link href="lib/css/praxisaufgabe.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript" src="lib/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="lib/js/jquery-ui-1.11.4.min.js"></script>
+		<script type="text/javascript" src="lib/js/praxisaufgabe.js"></script>
+  
+  
+  <script>
+	function zeichnen() {
+	var contxt = $("#canv_div").get(0).getContext('2d');
+	contxt.clearRect(0,0,200,200);
+	contxt.fillStyle = "rgb(11,52,234)";
+	contxt.fillRect(5, 5, 190, 190);
+	}
+	$( function() {
+	zeichnen();
+	});
+  </script>
+	
+ </head>
+
+ <body>
+
+		<div id="div">
+	<header id="header0">
+		<h1>Praxisaufgabe</h1>
+    </header>
+		
+	<aside>
+		
+		<h2>Ein Canvas mit fillRect() und fillStyle()</h2>
+		<canvas id="canv_div" width="200" height="200"></canvas>					
+	</aside>
+
+	<article>
+		
+		<h2>Ein Div-Element mit der Methode "resizable()"</h2>
+    	<div id="resize"></div>		
+	</article>
+	
+	
+	<section id="content" class="clearfix">
+	    
+		<h2>Bilder mit der Methode "draggable()"</h2>
+		<p><img src="lib/js/images/b1.jpg" alt="kinder und schweine"/></p>
+		<p><img src="lib/js/images/b2.jpg" alt="kind mit Fahrrad"/></p>		
+	</section>
+
+	<footer class="clearfix">
+		<p id="malsehen">&copy;2018 Galina Mihaylova</p> 
+	</footer>
+
+	</div>
+	</body>
+</html>
+
