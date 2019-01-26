@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rechnung>
+	<RNr>100</RNr>
+	<Datum>2016-02-01</Datum>
+	<Kunde>Huber</Kunde>
+	<Ort>Hamburg</Ort>
+	<Strasse>Lange Straße 23</Strasse>
+	<Positionen>
+		<Position>
+			<Artikel>Fahrrad</Artikel>
+			<Preis>399</Preis>
+			<Anzahl>2</Anzahl>
+			</Position>
+		<Position>
+			<Artikel>Helm</Artikel>
+			<Preis>39.5</Preis>
+			<Anzahl>2</Anzahl>
+		</Position>
+		<Position>
+			<Artikel>Kette</Artikel>
+			<Preis>99.9</Preis>
+			<Anzahl>2</Anzahl>
+		</Position>
+	</Positionen>
+</Rechnung>
