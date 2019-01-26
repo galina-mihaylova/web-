@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formular</title>
+</head>
+
+<body>
+<h1>Bestellung Sportartikel</h1>
+<form name="form1" method="post"nctype="text/plain"
+action="mailto:hans.mustermann@meine-firma.de">
+<p>
+<label for="vorname">Vorname</label>
+<input type="text" name="prename" id="vorname">
+</p>
+<p>
+<label for="nachname>Nachname<label>
+<input type="text" name="name" id ="nachname">
+</p>
+<p>
+<label for="adresse">Adresse</label>
+<input type="text" name="adresse" id="adresse">
+</p>
+<p>
+<label for="sportartikel">Sportartikel</label>
+<select name="products" id="sportartikel">
+<option>Fahrrad</option>
+<option>Skier</option>
+<option>Inline</option>
+</select>
+</p>
+<p>Ich bin
+<br>
+<label for="weiblich">weiblich</label>
+<input type="radio" name="Geschlecht" value="female" id="weiblich">
+
+<br>
+<label for="maennlich">männlich</label>
+<input type="radio" name="Geschlecht" value="male" id="maennlich">
+<br>
+</p>
+<p>Ich möchte in Zukunft Mitteilungen erhalten per</p>
+<p>
+<label for="post">Post</label>
+<input type="checkbox" name="News_post" value="gelbepost" id="post">
+<label for="mail">E-Mail</label>
+<input type="checkbox" name="News_mail" value="email" id="mail">
+<br>
+</p>
+<p>
+<input type="submit" name="button" id="sende" value="Senden">
+<input type="reset" name="button2" id="loesche" value="Zurücksetzen">
+</p>
+</form>
+</body>
+</html>

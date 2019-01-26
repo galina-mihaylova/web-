@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kundenbefragung</title>
+</head>
+
+<body>
+<h1>Formular zur Kundenbefragung</h1>
+<p>Bitte füllen Sie das folgende Formular aus und senden es dann mit dem Sende-Button ab.</p>
+<form id="form1"method="post" action="mailto:hans.mustermann@meine-firma.de">
+<p>
+<label>Postleitzahl
+<input type="text" name="textfield" id ="plz">
+</label>
+</p>
+<p>
+<label>Land
+<select name="selects" id="land">
+<option>Deutschland</option>
+<option>Russland</option>
+<option>Bulgarien</option>
+</select>
+</label>
+</p>
+<p>Wie sind Sie auf uns aufmerksam geworden?<br>
+<label>
+<input type="checkbox" name="checkbox1" id="presse">
+Presse</label>
+<label>
+<input type="checkbox" name="checkbox2" id="internet">
+Internet</label>
+<label>
+<input type="checkbox" name="checkbox3" id="rundfunk">
+Rundfunk</label>
+<label>
+<input type="checkbox" name="checkbox4" id="empfelung">
+Empfelung</label>
+<p/>
+<p>Welches Betriebssystem verwenden Sie?<br>
+<label>
+<input type="radio" name="Betriebssystem" value="Windows" id="win">
+Windows</label>
+<br>
+<label>
+<input type="radio" name="Betriebssystem" value="Mac" id="osx">
+Mac</label>
+<br>
+<label>
+<input type="radio" name="Betriebssystem" value="Linux" id="lin">
+Linux</label>
+<br>
+</p>
+<p>
+<input type="submit" name="button" id="sende" value="Senden">
+<input type="reset" name="button2" id="loesche" value="Zurücksetzen">
+</p>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>transform</title>
+<style>
+body {
+ font: 200% sans-serif;
+}
+.button {
+  margin: 70px;
+  display: block;
+  width: 200px;
+  padding: 40px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.button:hover {
+  -ms-transform: rotate(260deg);
+  -webkit-transform: rotate(260deg);
+  transform: rotate(260deg);
+  background-color: green;
+}
+
+
+
+</style>
+</head>
+<body>
+<p>
+<a href="#" class="button">Ein Link</a>
+</p>
+</body>
+</html>

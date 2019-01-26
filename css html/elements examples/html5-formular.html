@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formular</title>
+</head>
+
+<body>
+<h1>Formular mit HTML5</h1>
+<form name="myform" id="formular1" autocomplete="off">
+  <p>
+    <label>Suche
+      <input type="search" name="search" id="suche" autofocus>
+    </label>
+  </p>
+  <hr>
+  <p>
+    <label>Name
+      <input type="text" name="name" id="nachname"  placeholder="Nachname" required>
+    </label>
+  </p>
+  <hr>
+  <p>
+    <label>Alter
+      <input type="number"  min="0" max="120" step="5" name="age" id="alter"  placeholder="15" >
+    </label>
+  </p>
+  <p>
+    <label>Geburtsdatum
+      <input type="date" name="birthd" id="geburtdatum" placeholder="01.07.2013">
+    </label>
+  </p> 
+<hr>  
+  <p>
+    <label>Intelligenz-Quotient
+      <input type="range" name="iq" id="i-quotient" placeholder="100">
+    </label>
+  </p>  
+  <hr>
+  <p>
+    <label>Email
+      <input type="email" name="mail" id="email" placeholder="max@mustermann.de" required autocomplete="on">
+    </label>
+  </p>
+  <p>
+    <label>Weblink
+      <input type="url" name="web" id="weblink" placeholder="https://www. " autocomplete="on">
+    </label>
+  </p>
+    <p>
+    <label>Telefon
+      <input type="tel" name="fon" id="telefon">
+    </label>
+  </p>
+  <hr>
+  <p>
+    <label>Interessen
+      <input type="text" list="intliste" name="intrst" id="interessen">
+      <datalist id="intliste">
+      <option value="HTML5">
+      <option value="CSS3">
+      <option value="JavaScript">
+	  <option value="Photoshop">
+	  <option value="Fotografie">
+      </datalist>
+    </label>
+  </p>  
+  <hr>
+<p>
+  <input type="submit" name="snd" id="send" value="Senden">
+  <input type="reset" name="rst" id="zurueck" value="Zurücksetzen">
+</p>
+</form>
+</body>
+</html>

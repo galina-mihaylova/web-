@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Canvas Logo</title>
+  <script>
+      window.onload = function(){
+        var canvas = document.getElementById('mein-logo');
+        var context = canvas.getContext('2d');
+         //schreibe Text
+         context.fillStyle = "rgba(90,10,250, 1)";
+         context.font = 'italic 40px sans-serif';
+         context.textBaseline = 'top';
+         context.fillText('Meine tolle Firma', 110, 3);
+         //zeichne Linien
+		 context.strokeStyle = "rgba(0,220,0, 1)"; 
+         context.lineWidth = 2;
+         context.beginPath();
+         context.moveTo(20, 60); 
+         context.lineTo(50, 40);
+         context.lineTo(80, 60 );
+         context.lineTo(110, 40 );
+		 context.lineTo(180, 40 );
+         context.stroke();
+         context.closePath();
+         //zeichne Quadrat     
+         context.save();
+         context.translate(20,4);
+         context.fillRect(0,0,88,30);     
+         //zeichne Dreieck         
+         context.fillStyle = "rgba(250,250,10, 1)";      
+         context.lineWidth = 1;
+		 context.save();
+         context.translate(45,0);
+         context.beginPath();
+         context.moveTo(0, 0); 
+         context.lineTo(30, 0);
+         context.lineTo(15, 30 );
+         context.lineTo(0, 00 );
+         context.fill();		 
+         context.closePath();
+         context.restore();             
+     }     
+    </script>
+  </head>
+  <body>
+    <h1>Ein Logo für meine tolle Firma</h1>
+     <canvas id="mein-logo" width="500" height="80">
+       <p>Ihr Browser unterstützt leider das canvas-Element nicht!</p>
+     </canvas>
+  </body>
+</html>
