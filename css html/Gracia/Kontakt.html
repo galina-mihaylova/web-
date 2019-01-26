@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kontakt</title>
+</head>
+
+<body>
+<h1>Willkommen!</h1>
+
+<style>
+table {
+width: 100%
+}
+table, th, td {
+border: 1px solid black;
+}
+</style>
+
+<table>
+
+<tr>
+<th><p><a href="index.html">HOME</a></p></th>
+<th><p><a href="Produkte.html">Produkte</a></p></th>
+<th><p><a href="Mitarbeiter.html">Mitarbeiter</a></p></th>
+<th><p><a href="Kontakt.html">Kontakt</a></p></th>
+<th><p><a href="Impressum.html">Impressum</a></p></th>
+<th><p><a href="Sitemap.html">Sitemap</a></p></th>
+</tr>
+
+</table>
+
+
+
+<h2>Kontakt:</h2>
+
+<p>Bitte füllen Sie das folgende Formular aus und senden es dann mit dem Sende-Button ab.</p>
+<form id = "form1" method = "post" action= "mailto:hans.mustermann@meine-firma.de">
+<p>
+<label for="vorname">Vorname</label>
+<input type="text" name="prename" id="vorname">
+</p>
+
+<p>
+<label for="nachname">Nachname<label>
+<input type="text" name="name" id ="nachname">
+</p>
+
+<p>
+<label for="adresse">Adresse</label>
+<input type="text" name="adresse" id="adresse">
+</p>
+
+<p>
+<label for="Postleitzahl">Postleitzahl</label>
+<input type="text" name="Postleitzahl" id="plz">
+</p>
+
+<p>
+<label>Land
+<select name="selects" id="land">
+<option>Deutschland</option>
+<option>Russland</option>
+<option>Bulgarien</option>
+</select>
+</label>
+</p>
+
+<p>
+<label for="Ihre Nachricht">Ihre Nachricht</label>
+<input type="text" name="Ihre Nachricht" id="Ihre Nachricht">
+</p>
+
+<p>Wie sind Sie auf uns aufmerksam geworden?<br>
+<label>
+<input type="checkbox" name="checkbox1" id="presse">
+Presse</label>
+<label>
+<input type="checkbox" name="checkbox2" id="internet">
+Internet</label>
+<label>
+<input type="checkbox" name="checkbox3" id="rundfunk">
+Rundfunk</label>
+<label>
+<input type="checkbox" name="checkbox4" id="empfelung">
+Empfelung</label>
+</p>
+
+<p>
+<input type="submit" name="button" id="sende" value="Senden">
+<input type="reset" name="button2" id="loesche" value="Zurücksetzen">
+</p>
+</form>
+
+
+
+
+
+<p>&copy; 2018 Gracia GmbH</p>
+
+</body>
+</html>
